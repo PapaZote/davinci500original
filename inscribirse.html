@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Inscribirse | Leonardo da Vinci</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="icon" href="imag/logo.ico">
+
+</head>
+<body>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="elem/main.js"></script>
+
+	 <script src="elem/header.js"></script>
+
+	 <div class="wrapper" id="top">
+	 	<section class="form_wrap">
+
+        <form action="enviar.php" method="post" class="form_contact">
+            <h2>Envia un mensaje</h2>
+            <div class="user_info">
+                <label for="names">Nombres*</label>
+                <input type="text" id="names" name="nombre" required>
+
+                <label for="email">Correo electronico*</label>
+                <input type="text" id="email" name="correo" required>
+
+                <label for="phone">Telefono / Celular</label>
+                <input type="text" id="phone" name="telefono">
+
+                <label for="mensaje">¿A qué taller te gustaría entrar?*</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <!--input type="submit" value="Enviar" id="btnSend"-->
+                <a href="mensaje-de-envio.html" class="btnSend">Enviar</a>
+            </div>
+        </form>
+
+    </section>
+	 </div>
+
+	 <script src="elem/footer.js"></script>
+
+</body>
+</html>
